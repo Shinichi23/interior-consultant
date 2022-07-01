@@ -1,0 +1,20 @@
+footer {
+    text-align: center;
+    position: sticky;
+    margin-bottom: 24px;
+    color: #BDBDBD;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;  
+}
+
+.devChallenge {
+
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+a {
+    color: #BDBDBD;
+}
