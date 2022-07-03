@@ -13,6 +13,24 @@
     margin-top: 20px;
 }
 
+#hamburger {
+    display: none;
+}
+
+#closeBtn {
+    display: none;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
 #navTitle {
     text-transform: uppercase;
     font-family: 'Crimson Pro';
@@ -25,7 +43,7 @@
     text-align: center;
 }
 
-.navList {
+#navList {
     display: flex;
     gap: 86px;
     list-style: none;
@@ -78,6 +96,10 @@ button {
 
 strong {
     font-size: 30px;
+}
+
+strong:hover {
+    color: chartreuse;
 }
 
 button:hover {
@@ -142,4 +164,98 @@ footer {
 
 a {
     color: #BDBDBD;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    #mainInfo {
+        flex-direction:column;
+        margin-top: 50px;
+        align-items:flex-start;
+    }
+
+    #navList {
+        display: none;
+        margin-top: 100px;
+    }
+
+    li {
+        margin: 50px;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #hamburger:hover{
+        color: chartreuse;
+        cursor: grab;
+    }
+
+    #hiddenMenu {
+        width: 100%;
+        text-align: center;
+    }
+
+    #closeBtn {
+        float: right; 
+    }
+
+    #closeBtn:hover {
+        color: chartreuse;
+        cursor: grab;  
+    }
+
+    li:hover {
+        font-weight: 600;
+        cursor: grab; 
+        text-decoration: underline;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;    
+    }
+
+    #textInfo {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    #mainImg {
+        width: 351px;
+        height: 264.32px;
+    }
+
+    #content {
+        width: 300px;
+        height: 138px;
+        left: 112px;
+        top: 636px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    #cardInfo {
+        padding: 20px;
+        font-size: 14px;
+    }
+    
+    .textInfo {
+        padding: 0 20px;
+    }
+
+    #profileImg {
+        width: 36.59px;
+        height: 36.59px;
+        border-radius: 37px;
+    }
+
 }
